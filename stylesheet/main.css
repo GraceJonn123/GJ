@@ -49,15 +49,21 @@ table {
 }
 /*------------------------------------------------------------------------------home begins------------------------------------------------------------------------------------------------*/
 body{
-    background-image: url(pictures/orange1.jpg);
     background-repeat: no-repeat;
     background-size:contain;
     background-attachment:fixed;
-    color: white;
- }
+    display: inline-block;
+}
+nav{
+    font-size: 200%;
+    display: inline-block;
+}
 header{
     margin: 10px;
-    height: 55%;
+    height: 30%;
+    display: inline-table;
+    font-size: 300%;
+    color: white;
 }
 a:link {
     text-decoration: none;
