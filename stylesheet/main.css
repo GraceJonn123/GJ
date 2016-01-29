@@ -22,7 +22,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align:sub;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -56,6 +57,8 @@ body{
 font-size: 200%;
     position: absolute;
     text-align: center;
+    color: white;
+    margin-bottom: 3%;
 }
 nav li{
     align-content: space-between;
@@ -64,30 +67,16 @@ nav li{
 }
 header{
     text-align: center;
+    margin-bottom: 50px;
     margin: 10px;
     height: 30%;
     display: inline-table;
     font-size: 300%;
     color: white;
-    background-color: black;
     background-size: cover;
 }
-a:link {
-    text-decoration: none;
-    text-decoration-color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    text-decoration-color: darkorange;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
+section{
+    margin: 50px;
 }
 /*-------------------------------------------------------------------------------about---------------------------------------------------------------------------*/
 
@@ -98,7 +87,7 @@ a:active {
 /*-------------------------------------------------------------------------------contact info------------------------------------------------------------------------------*/
  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(pictures/spider.jpg) no-repeat;
+html{    background:url(pictures/yumm.jpg) no-repeat;
   background-size: cover;
   height:100%;
 }
@@ -111,6 +100,7 @@ html{    background:url(pictures/spider.jpg) no-repeat;
 	width:100%;
 	float:left;
 	padding-top:0px;
+    background-color: black;
 }
 
 #form-div {
@@ -262,4 +252,8 @@ input:focus, textarea:focus {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+}
+footer{
+    padding-bottom: 0%;
+
 }
