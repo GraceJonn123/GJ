@@ -27,7 +27,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display:inline-block;
 }
 body {
 	line-height: 1;
@@ -53,21 +53,26 @@ body{
     background-size:contain;
     background-attachment:fixed;
     display: inline-block;
+
 }
-nav{
+nav li{
+    align-content: space-between;
     font-size: 200%;
     display: inline-block;
 }
 header{
+    text-align: center;
     margin: 10px;
     height: 30%;
     display: inline-table;
     font-size: 300%;
     color: white;
+    background-color: black;
+    background-size: cover;
 }
 a:link {
     text-decoration: none;
-    text-decoration-color: black
+    text-decoration-color: black;
 }
 
 a:visited {
@@ -91,7 +96,7 @@ a:active {
 /*-------------------------------------------------------------------------------contact info------------------------------------------------------------------------------*/
  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(pictures/orange1.jpg) no-repeat;
+html{    background:url(pictures/spider.jpg) no-repeat;
   background-size: cover;
   height:100%;
 }
