@@ -47,16 +47,45 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*------------------------------------------------------------------------------home begins------------------------------------------------------------------------------------------------*/
 body{
-    background-image: url(stylesheet/pictures/yumm.jpg);
+    background-image: url(pictures/orange1.jpg);
     background-repeat: no-repeat;
     background-size:contain;
     background-attachment:fixed;
     color: white;
  }
+header{
+    margin: 10px;
+    height: 55%;
+}
+a:link {
+    text-decoration: none;
+    text-decoration-color: black
+}
+
+a:visited {
+    text-decoration: none;
+    text-decoration-color: darkorange;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+/*-------------------------------------------------------------------------------about---------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------------contact info------------------------------------------------------------------------------*/
  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+html{    background:url(pictures/orange1.jpg) no-repeat;
   background-size: cover;
   height:100%;
 }
